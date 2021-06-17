@@ -1,0 +1,32 @@
+.btn {
+    &:link,
+    &:visited {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        padding: 1.8rem 8rem;
+        border-radius: 10rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    &--primary {
+        background-color: $color-strong-cyan;
+        &:hover {
+            box-shadow: 0 2rem 4rem rgba($color-strong-cyan, 0.4);
+        }
+    }
+
+    &--secondary {
+        background-color: $color-blue-violet;
+        &:hover {
+            box-shadow: 0 2rem 4rem rgba($color-blue-violet, 0.4);
+        }
+    }
+
+    &:hover,
+    &:active {
+        transform: translateY(-0.3rem);
+    }
+}

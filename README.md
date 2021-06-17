@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Source](https://waltersono.github.io/clipboard-landing-page/)
+- Live Site URL: [Live](https://github.com/waltersono/clipboard-landing-page/)
 
 ## My process
 

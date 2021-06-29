@@ -1,6 +1,7 @@
 .section-one {
     text-align: center;
-    margin: 5rem 0;
+    margin: 5rem auto;
+    width: 90%;
 
     &__img {
         margin: 7rem 0;
@@ -73,7 +74,7 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) {
     .section-one {
         .paragraph {
             max-width: 90rem;

@@ -43,11 +43,16 @@
         img {
             width: 3rem;
             height: 3rem;
+            transition: all 0.2s;
+        }
+
+        &:hover img {
+            opacity: 0.8;
         }
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) {
     .footer {
         padding: 10rem 0;
         &-box {
